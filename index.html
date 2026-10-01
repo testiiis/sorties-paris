@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sorties à Paris</title>
+  <meta name="description" content="Films, expositions, théâtre, spectacles et conférences à Paris, mis à jour chaque semaine.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎭</text></svg>">
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap">
+      <p class="kicker" id="week">Chargement…</p>
+      <h1>Sorties à Paris</h1>
+      <p class="lede">Films, expositions, théâtre, spectacles et conférences : la sélection de la semaine, mise à jour chaque lundi.</p>
+    </div>
+  </header>
+
+  <nav class="tabs-bar" aria-label="Catégories">
+    <div class="wrap tabs" id="tabs" role="tablist"></div>
+  </nav>
+
+  <main class="wrap">
+    <section class="filters" aria-label="Filtres">
+      <input type="search" id="q" placeholder="Rechercher un titre, un lieu…" aria-label="Rechercher">
+      <select id="arr" aria-label="Arrondissement">
+        <option value="">Tous arrondissements</option>
+      </select>
+      <label class="check"><input type="checkbox" id="free"> Gratuit</label>
+      <label class="check"><input type="checkbox" id="ending"> Se termine bientôt</label>
+    </section>
+
+    <p class="count" id="count" aria-live="polite"></p>
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty" hidden>Aucune sortie ne correspond à ces filtres.</p>
+  </main>
+
+  <footer class="wrap footer">
+    <p id="updated"></p>
+    <p>Sélection établie automatiquement par un agent IA à partir de l'<a href="https://opendata.paris.fr/explore/dataset/que-faire-a-paris-/" rel="noopener">open data « Que faire à Paris »</a> et de sources web. Vérifiez horaires et disponibilités sur le site de chaque lieu.</p>
+  </footer>
+
+  <script src="app.js?v=2"></script>
+</body>
+</html>
