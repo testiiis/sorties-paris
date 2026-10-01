@@ -17,6 +17,10 @@ Le script écrit `.cache/opendata.json` : plusieurs centaines de candidats déj�
 (catégories exposition / theatre / spectacle / conference / cinema).
 Ce fichier est **trop gros pour être pris tel quel** : il faut sélectionner (voir étape 4).
 
+Si le script échoue (accès réseau bloqué dans l'environnement), interroge directement l'API avec WebFetch, par pages de 100
+(`offset=0`, `100`, `200`…), puis traduis les champs comme le fait `to_event()` dans `scripts/fetch_opendata.py` :
+`https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/que-faire-a-paris-/records?limit=100&offset=0&where=date_end%3E%3D%22<start>%22%20and%20date_start%3C%3D%22<end>T23%3A59%3A59%22`
+
 ## 3. Recherche web complémentaire (WebSearch / WebFetch)
 L'open data couvre mal le cinéma et certaines grandes institutions. Complète avec :
 
