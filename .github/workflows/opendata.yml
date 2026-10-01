@@ -1,0 +1,30 @@
+# Récupère chaque lundi les candidats de l'open data « Que faire à Paris ».
+# L'environnement cloud de l'agent n'a pas accès à opendata.paris.fr : ce fichier
+# est donc préparé ici, une heure avant le passage de l'agent (lundi 6h UTC).
+name: Candidats open data
+
+on:
+  schedule:
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Récupérer les candidats
+        run: python3 scripts/fetch_opendata.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/opendata-candidates.json
+          git diff --cached --quiet || git commit -m "Candidats open data $(date -u +%F)"
+          git push

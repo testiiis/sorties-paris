@@ -5,7 +5,7 @@ Produit une liste de candidats déjà au format de data/events.json, que l'agent
 trie et complète ensuite par recherche web.
 
 Usage : python3 scripts/fetch_opendata.py [--start YYYY-MM-DD] [--end YYYY-MM-DD]
-        [--out .cache/opendata.json]
+        [--out data/opendata-candidates.json]
 """
 import argparse
 import datetime as dt
@@ -101,13 +101,18 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--start", default=today.isoformat())
     parser.add_argument("--end", default=(today + dt.timedelta(days=6)).isoformat())
-    parser.add_argument("--out", default=".cache/opendata.json")
+    parser.add_argument("--out", default="data/opendata-candidates.json")
     args = parser.parse_args()
 
     events = [e for e in map(to_event, fetch(args.start, args.end)) if e and e["title"]]
     os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as f:
-        json.dump(events, f, ensure_ascii=False, indent=1)
+        payload = {
+            "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+            "week": {"start": args.start, "end": args.end},
+            "events": events,
+        }
+        json.dump(payload, f, ensure_ascii=False, indent=1)
 
     counts = {}
     for e in events:

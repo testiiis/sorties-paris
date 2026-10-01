@@ -10,16 +10,23 @@ sans demander de confirmation : tu tournes seul, en routine planifiée.
   `start_date <= end` et `end_date >= start`.
 
 ## 2. Base de candidats (open data Ville de Paris)
-```bash
-python3 scripts/fetch_opendata.py --start <start> --end <end>
-```
-Le script écrit `.cache/opendata.json` : plusieurs centaines de candidats déjà au bon format
+Le fichier `data/opendata-candidates.json` est préparé chaque lundi à 5h UTC par une GitHub Action
+(`.github/workflows/opendata.yml`), car l'environnement cloud de l'agent n'a pas accès à opendata.paris.fr.
+Il contient `generated_at`, `week` et `events` : plusieurs centaines de candidats déjà au bon format
 (catégories exposition / theatre / spectacle / conference / cinema).
 Ce fichier est **trop gros pour être pris tel quel** : il faut sélectionner (voir étape 4).
 
-Si le script échoue (accès réseau bloqué dans l'environnement), interroge directement l'API avec WebFetch, par pages de 100
-(`offset=0`, `100`, `200`…), puis traduis les champs comme le fait `to_event()` dans `scripts/fetch_opendata.py` :
-`https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/que-faire-a-paris-/records?limit=100&offset=0&where=date_end%3E%3D%22<start>%22%20and%20date_start%3C%3D%22<end>T23%3A59%3A59%22`
+- Fais d'abord `git pull` pour avoir la dernière version.
+- Vérifie que `week.start` du fichier est la date du jour, ou au plus 2 jours avant.
+- S'il est périmé, essaie `python3 scripts/fetch_opendata.py --start <start> --end <end>`.
+  Si l'accès réseau est bloqué, utilise quand même les candidats périmés dont les dates recouvrent la nouvelle
+  fenêtre (les expositions et les pièces durent souvent plusieurs semaines), et appuie-toi davantage sur la recherche web.
+
+**Une source bloquée ou indisponible n'est jamais une raison d'abandonner.** Continue avec les autres sources
+(fichier de candidats, WebSearch, WebFetch). Ne renonce que si tu ne peux vérifier aucun événement : dans ce cas,
+ne touche pas à `data/events.json` et explique pourquoi.
+Les résultats de WebSearch suffisent comme vérification s'ils citent une source fiable (titre, lieu, dates).
+Si WebFetch est bloqué sur un domaine, utilise comme `url` une page d'une source fiable renvoyée par WebSearch.
 
 ## 3. Recherche web complémentaire (WebSearch / WebFetch)
 L'open data couvre mal le cinéma et certaines grandes institutions. Complète avec :
@@ -78,7 +85,7 @@ Critères de sélection parmi les candidats open data :
   } ]
 }
 ```
-Le plus simple est d'écrire un petit script Python temporaire qui lit `.cache/opendata.json`,
+Le plus simple est d'écrire un petit script Python temporaire qui lit `data/opendata-candidates.json`,
 garde les `id` choisis, ajoute les événements trouvés sur le web, puis écrit `data/events.json`.
 
 ## 6. Validation
@@ -94,5 +101,5 @@ git add data/events.json
 git commit -m "Mise à jour hebdo <start>"
 git push origin main
 ```
-Ne modifie aucun autre fichier du repo pendant une mise à jour hebdomadaire.
+Ne modifie aucun autre fichier du repo pendant une mise à jour hebdomadaire (pas même `data/opendata-candidates.json`).
 Termine par un court résumé : le nombre d'événements par catégorie et les sources principales utilisées.

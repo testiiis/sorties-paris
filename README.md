@@ -8,7 +8,7 @@ Agenda hebdomadaire des sorties culturelles à Paris (cinéma, expositions, thé
 
 ## Fonctionnement de l'agent
 
-1. `scripts/fetch_opendata.py` récupère les candidats de l'API open data [« Que faire à Paris »](https://opendata.paris.fr/explore/dataset/que-faire-a-paris-/).
+1. Chaque lundi à 5h UTC, une GitHub Action lance `scripts/fetch_opendata.py`, qui récupère les candidats de l'API open data [« Que faire à Paris »](https://opendata.paris.fr/explore/dataset/que-faire-a-paris-/).
 2. L'agent complète par recherche web (films à l'affiche, grandes expositions, théâtres et salles majeurs).
 3. Il retient environ 120 événements, écrit `data/events.json` et lance `scripts/validate.py`.
 4. Il commit et push : GitHub Pages republie le site.
@@ -16,7 +16,7 @@ Agenda hebdomadaire des sorties culturelles à Paris (cinéma, expositions, thé
 ## En local
 
 ```bash
-python3 scripts/fetch_opendata.py          # candidats dans .cache/opendata.json
+python3 scripts/fetch_opendata.py          # candidats dans data/opendata-candidates.json
 python3 scripts/validate.py                # vérifie et nettoie data/events.json
 python3 -m http.server 8742                # puis http://localhost:8742
 ```
