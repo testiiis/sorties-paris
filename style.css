@@ -53,6 +53,14 @@ h1 {
   font-size: clamp(40px, 8vw, 72px); line-height: 1; letter-spacing: -.02em;
 }
 .lede { margin: 14px 0 0; max-width: 560px; color: var(--muted); font-size: 17px; }
+.stamp {
+  display: inline-flex; align-items: center; gap: 8px;
+  margin: 16px 0 0; padding: 6px 12px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 999px;
+  font-size: 13px; font-weight: 500;
+}
+.stamp[hidden] { display: none; }
+.stamp .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--conference); flex: none; }
 
 /* Onglets */
 .tabs-bar {

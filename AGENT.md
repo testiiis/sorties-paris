@@ -85,6 +85,9 @@ Critères de sélection parmi les candidats open data :
   } ]
 }
 ```
+`generated_at` est affiché en haut du site (« Dernière mise à jour ») : mets-y l'heure réelle du passage,
+obtenue avec `date -u +%Y-%m-%dT%H:%M:%S+00:00` juste avant d'écrire le fichier. Ne recopie jamais l'ancienne valeur.
+
 Le plus simple est d'écrire un petit script Python temporaire qui lit `data/opendata-candidates.json`,
 garde les `id` choisis, ajoute les événements trouvés sur le web, puis écrit `data/events.json`.
 

@@ -19,7 +19,9 @@ let weekStart = new Date();
 const $ = (id) => document.getElementById(id);
 const fmtDay = new Intl.DateTimeFormat("fr-FR", { day: "numeric", month: "long" });
 const fmtDayYear = new Intl.DateTimeFormat("fr-FR", { day: "numeric", month: "long", year: "numeric" });
-const fmtFull = new Intl.DateTimeFormat("fr-FR", { dateStyle: "full", timeStyle: "short" });
+const fmtFull = new Intl.DateTimeFormat("fr-FR", { dateStyle: "full", timeStyle: "short", timeZone: "Europe/Paris" });
+const fmtTime = new Intl.DateTimeFormat("fr-FR", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Paris" });
+const fmtStampDay = new Intl.DateTimeFormat("fr-FR", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "Europe/Paris" });
 
 const parseDay = (s) => new Date(`${s}T12:00:00`);
 // Intl écrit « 1 octobre » ; l'usage français est « 1er octobre ».
@@ -129,7 +131,10 @@ async function main() {
     events = data.events || [];
     weekStart = parseDay(data.week.start);
     $("week").textContent = `Semaine du ${day(data.week.start)} au ${dayYear(data.week.end)}`;
-    $("updated").textContent = `Mis à jour le ${premier(fmtFull.format(new Date(data.generated_at)))}.`;
+    const updatedAt = new Date(data.generated_at);
+    $("updated").textContent = `Mis à jour le ${premier(fmtFull.format(updatedAt))}.`;
+    $("stamp-text").textContent = `Dernière mise à jour : ${premier(fmtStampDay.format(updatedAt))} à ${fmtTime.format(updatedAt).replace(":", "h")}`;
+    $("stamp").hidden = false;
     renderTabs();
     initFilters();
     render();
