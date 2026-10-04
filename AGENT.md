@@ -9,6 +9,10 @@ sans demander de confirmation : tu tournes seul, en routine planifiée.
 - Ne garde que des événements **visibles pendant cette fenêtre** :
   `start_date <= end` et `end_date >= start`.
 
+## 1 bis. Toujours repartir de zéro
+Chaque passage reconstruit **toute** la sélection, même si `data/events.json` a déjà été mis à jour récemment.
+L'ancien fichier sert seulement de point de comparaison : ne te contente jamais de le compléter.
+
 ## 2. Base de candidats (open data Ville de Paris)
 Le fichier `data/opendata-candidates.json` est préparé chaque lundi à 5h UTC par une GitHub Action
 (`.github/workflows/opendata.yml`), car l'environnement cloud de l'agent n'a pas accès à opendata.paris.fr.
@@ -32,8 +36,11 @@ Si WebFetch est bloqué sur un domaine, utilise comme `url` une page d'une sourc
 L'open data couvre mal le cinéma et certaines grandes institutions. Complète avec :
 
 - **Cinéma (priorité, ~30 films)** : la base open data n'a presque pas de films.
-  - Sorties du mercredi de la semaine et de la semaine précédente, plus les films toujours à l'affiche
-    qui marchent bien (AlloCiné « sorties de la semaine » / « box-office », Télérama, Première).
+  - Couvre les **quatre derniers mercredis de sortie** plus celui de la semaine : environ 5 à 8 films par semaine de sortie,
+    et garde les gros succès sortis plus tôt s'ils sont encore dans le top 10 du box-office.
+    Sources : la page « nouveautés » et la page « à l'affiche » d'Offi.fr, les guides mensuels de Sortiraparis,
+    AlloCiné (« sorties de la semaine », « box-office »), Télérama, Première.
+  - Compte seulement les vrais films pour l'objectif d'environ 30. Festivals, cycles et ateliers viennent en plus.
   - Mélange de grand public, d'art et essai, de films d'auteur et de reprises/festivals notables
     (Cinémathèque française, Forum des images, Champo, Max Linder, MK2).
   - Pour un film : `venue` = « Cinémas parisiens » (ou le cinéma précis pour une reprise ou un festival),
@@ -66,6 +73,8 @@ Critères de sélection parmi les candidats open data :
   (tag « Enfants » / « jeune public »).
 - Une expo qui ferme dans les 14 jours est intéressante : garde-la.
 - Nettoie les titres : retire les préfixes du type « EXPOSITION | » ou « Découvrez l'exposition ».
+  Raccourcis les titres d'annonce (« Le Festival X fait écran aux discriminations » → « Festival X ») et retire les « ! » ou
+  numéros d'édition superflus.
 
 ## 5. Format (`data/events.json`)
 ```json
