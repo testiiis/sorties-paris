@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T10:09:46+00:00",
+ "generated_at": "2026-10-04T10:24:25+00:00",
  "week": {
   "start": "2026-10-04",
   "end": "2026-10-10"
@@ -22,6 +22,64 @@
    "tags": [
     "Comédie",
     "Famille"
+   ],
+   "source": "web"
+  },
+  {
+   "id": "fausse-note-2026",
+   "category": "cinema",
+   "title": "Fausse note",
+   "description": "Alexandre Arcady — drame historique avec Kad Merad et Benoît Poelvoorde, huis clos à l'Opéra.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-10-07",
+   "end_date": "2026-10-10",
+   "schedule": "Séances selon les cinémas",
+   "price": "Selon cinéma",
+   "free": false,
+   "url": "https://www.sortiraparis.com/en/what-to-do-in-paris/cinema-series/articles/351199-off-key-moment-kad-merad-and-benoit-poelvoorde-in-a-closed-quarters-drama-at-the-opera",
+   "tags": [
+    "Drame historique"
+   ],
+   "source": "web"
+  },
+  {
+   "id": "joyeuse-jungle-2026",
+   "category": "cinema",
+   "title": "Joyeuse Jungle !",
+   "description": "Film d'animation d'aventure : Elizabeth part chercher son frère dans la forêt tropicale.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-10-07",
+   "end_date": "2026-10-10",
+   "schedule": "Séances selon les cinémas",
+   "price": "Selon cinéma",
+   "free": false,
+   "url": "https://www.sortiraparis.com/en/what-to-do-in-paris/cinema-series/articles/351604-joyful-jungle-elizabeth-searches-for-her-brother-in-the-tropical-forest",
+   "tags": [
+    "Animation",
+    "Enfants"
+   ],
+   "source": "web"
+  },
+  {
+   "id": "la-maison-de-nos-reves-2026",
+   "category": "cinema",
+   "title": "La Maison de nos rêves",
+   "description": "Comédie avec Kev Adams et Chantal Ladesou autour d'un viager.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-10-07",
+   "end_date": "2026-10-10",
+   "schedule": "Séances selon les cinémas",
+   "price": "Selon cinéma",
+   "free": false,
+   "url": "https://www.sortiraparis.com/en/what-to-do-in-paris/cinema-series/articles/352415-the-house-of-our-dreams-kev-adams-and-chantal-ladesou-in-a-comedy-about-life-annuities",
+   "tags": [
+    "Comédie"
    ],
    "source": "web"
   },
@@ -63,6 +121,25 @@
    "image": "https://cdn.paris.fr/qfapv4/2026/09/30/huge-98aad727f8dda709cf1862787832a053.jpg",
    "tags": [],
    "source": "opendata.paris.fr"
+  },
+  {
+   "id": "ni-vue-ni-connue-2026",
+   "category": "cinema",
+   "title": "Ni vue, ni connue",
+   "description": "Marc Fitoussi — drame avec Isabelle Huppert et Sandrine Kiberlain.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-10-07",
+   "end_date": "2026-10-10",
+   "schedule": "Séances selon les cinémas",
+   "price": "Selon cinéma",
+   "free": false,
+   "url": "https://www.sortiraparis.com/en/what-to-do-in-paris/cinema-series/articles/352417-ni-vue-ni-connue-isabelle-huppert-dreams-of-a-major-role-opposite-sandrine-kiberlain",
+   "tags": [
+    "Drame"
+   ],
+   "source": "web"
   },
   {
    "id": "the-social-reckoning-2026",
@@ -181,6 +258,45 @@
    "image": "https://cdn.paris.fr/qfapv4/2026/09/01/huge-16d169e5f6348330fe0d2427511b0d71.png",
    "tags": [],
    "source": "opendata.paris.fr"
+  },
+  {
+   "id": "aprile-2026",
+   "category": "cinema",
+   "title": "Aprile",
+   "description": "Nanni Moretti — autofiction, entre politique, cinéma et paternité.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-09-30",
+   "end_date": "2026-10-10",
+   "schedule": "Séances selon les cinémas",
+   "price": "Selon cinéma",
+   "free": false,
+   "url": "https://www.sortiraparis.com/en/what-to-do-in-paris/cinema-series/articles/352596-april-in-cinemas-nanni-moretti-between-politics-cinema-and-fatherhood",
+   "tags": [
+    "Drame"
+   ],
+   "source": "web"
+  },
+  {
+   "id": "cars-reprise-2026",
+   "category": "cinema",
+   "title": "Cars (reprise 20 ans)",
+   "description": "Reprise en salles du film d'animation Pixar pour les 20 ans de Flash McQueen. Famille.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-09-30",
+   "end_date": "2026-10-10",
+   "schedule": "Séances selon les cinémas",
+   "price": "Selon cinéma",
+   "free": false,
+   "url": "https://www.sortiraparis.com/en/what-to-do-in-paris/cinema-series/articles/352597-cars-at-the-cinema-lightning-mcqueen-marks-20-years-on-the-big-screen",
+   "tags": [
+    "Animation",
+    "Enfants"
+   ],
+   "source": "web"
   },
   {
    "id": "cinematheque-cinema-et-espace-2026",
