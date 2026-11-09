@@ -1,10 +1,201 @@
 {
- "generated_at": "2026-11-02T06:24:47+00:00",
+ "generated_at": "2026-11-09T06:21:28+00:00",
  "week": {
-  "start": "2026-11-02",
-  "end": "2026-11-08"
+  "start": "2026-11-09",
+  "end": "2026-11-15"
  },
  "events": [
+  {
+   "id": "15-18-cedric-kahn",
+   "category": "cinema",
+   "title": "15/18",
+   "description": "Drame de Cédric Kahn, sortie le 11 novembre.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-11-11",
+   "end_date": "2026-11-15",
+   "schedule": "Séances selon cinémas",
+   "price": "Selon cinémas",
+   "free": false,
+   "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000040172.html",
+   "tags": [
+    "Drame"
+   ],
+   "source": "web"
+  },
+  {
+   "id": "a-jamais-les-premieres",
+   "category": "cinema",
+   "title": "À jamais les premières",
+   "description": "Comédie dramatique de Marta Díaz de Lope Díaz, sortie le 11 novembre.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-11-11",
+   "end_date": "2026-11-15",
+   "schedule": "Séances selon cinémas",
+   "price": "Selon cinémas",
+   "free": false,
+   "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000020962.html",
+   "tags": [
+    "Comédie dramatique"
+   ],
+   "source": "web"
+  },
+  {
+   "id": "comment-braquer-une-banque",
+   "category": "cinema",
+   "title": "Comment braquer une banque",
+   "description": "Film d’action et thriller policier de David Leitch, sortie le 11 novembre.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-11-11",
+   "end_date": "2026-11-15",
+   "schedule": "Séances selon cinémas",
+   "price": "Selon cinémas",
+   "free": false,
+   "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000020289.html",
+   "tags": [
+    "Action"
+   ],
+   "source": "web"
+  },
+  {
+   "id": "il-faut-bruler-maman",
+   "category": "cinema",
+   "title": "Il faut brûler Maman",
+   "description": "Comédie d’Albert Dupontel, sortie le 11 novembre 2026.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-11-11",
+   "end_date": "2026-11-15",
+   "schedule": "Séances selon cinémas",
+   "price": "Selon cinémas",
+   "free": false,
+   "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000039483.html",
+   "tags": [
+    "Comédie"
+   ],
+   "source": "web"
+  },
+  {
+   "id": "l-age-d-or-thouin",
+   "category": "cinema",
+   "title": "L’Âge d’Or",
+   "description": "Drame historique de Bérenger Thouin, sortie le 11 novembre.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-11-11",
+   "end_date": "2026-11-15",
+   "schedule": "Séances selon cinémas",
+   "price": "Selon cinémas",
+   "free": false,
+   "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=310503.html",
+   "tags": [
+    "Drame"
+   ],
+   "source": "web"
+  },
+  {
+   "id": "le-merveilleux-hiver-de-tom-le-chat",
+   "category": "cinema",
+   "title": "Le Merveilleux Hiver de Tom le chat",
+   "description": "Film d’animation et d’aventure de Joost Van Den Bosch et Erick Verkerk, sortie le 11 novembre.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-11-11",
+   "end_date": "2026-11-15",
+   "schedule": "Séances selon cinémas",
+   "price": "Selon cinémas",
+   "free": false,
+   "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032461.html",
+   "tags": [
+    "Enfants",
+    "Animation"
+   ],
+   "source": "web"
+  },
+  {
+   "id": "les-yeux-verts",
+   "category": "cinema",
+   "title": "Les Yeux verts",
+   "description": "Drame de Fanny Liatard et Jérémy Trouilh, sortie le 11 novembre.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-11-11",
+   "end_date": "2026-11-15",
+   "schedule": "Séances selon cinémas",
+   "price": "Selon cinémas",
+   "free": false,
+   "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=323956.html",
+   "tags": [
+    "Drame"
+   ],
+   "source": "web"
+  },
+  {
+   "id": "pierre-ou-les-ambiguites",
+   "category": "cinema",
+   "title": "Pierre ou les ambiguïtés",
+   "description": "Drame romantique de Leos Carax, sortie le 11 novembre.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-11-11",
+   "end_date": "2026-11-15",
+   "schedule": "Séances selon cinémas",
+   "price": "Selon cinémas",
+   "free": false,
+   "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=58916.html",
+   "tags": [
+    "Drame"
+   ],
+   "source": "web"
+  },
+  {
+   "id": "scrooge-ti-west",
+   "category": "cinema",
+   "title": "Scrooge",
+   "description": "Aventure fantastique de Ti West, d’après Dickens, sortie le 11 novembre.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-11-11",
+   "end_date": "2026-11-15",
+   "schedule": "Séances selon cinémas",
+   "price": "Selon cinémas",
+   "free": false,
+   "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000034007.html",
+   "tags": [
+    "Fantastique"
+   ],
+   "source": "web"
+  },
+  {
+   "id": "the-good-boy-komasa",
+   "category": "cinema",
+   "title": "The Good Boy",
+   "description": "Drame-thriller de Jan Komasa, sortie le 11 novembre.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-11-11",
+   "end_date": "2026-11-15",
+   "schedule": "Séances selon cinémas",
+   "price": "Selon cinémas",
+   "free": false,
+   "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=328439.html",
+   "tags": [
+    "Thriller"
+   ],
+   "source": "web"
+  },
   {
    "id": "ramayana",
    "category": "cinema",
@@ -14,7 +205,7 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-11-06",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
@@ -33,13 +224,32 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-11-04",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
    "url": "https://www.sortiraparis.com/en/what-to-do-in-paris/cinema-series/articles/349248-godzilla-minus-zero-the-sequel-to-minus-one-reveals-a-new-trailer",
    "tags": [
     "Science-fiction"
+   ],
+   "source": "web"
+  },
+  {
+   "id": "kwibuka-se-souvenir",
+   "category": "cinema",
+   "title": "Kwibuka, se souvenir",
+   "description": "Drame de Jonas d’Adesky avec Sonia Rolland, sorti le 4 novembre.",
+   "venue": "Cinémas parisiens",
+   "address": "Paris",
+   "arrondissement": "",
+   "start_date": "2026-11-04",
+   "end_date": "2026-11-15",
+   "schedule": "Séances selon cinémas",
+   "price": "Selon cinémas",
+   "free": false,
+   "url": "https://www.sortiraparis.com/en/what-to-do-in-paris/cinema-series/articles/357661-kwibuka-remembering-the-film-starring-sonia-rolland-to-see-in-cinemas-in-paris",
+   "tags": [
+    "Drame"
    ],
    "source": "web"
   },
@@ -52,7 +262,7 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-11-04",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
@@ -71,7 +281,7 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-11-04",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
@@ -91,7 +301,7 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-11-04",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
@@ -111,7 +321,7 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-11-04",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
@@ -130,7 +340,7 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-11-04",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
@@ -149,7 +359,7 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-11-04",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
@@ -168,7 +378,7 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-10-28",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
@@ -187,33 +397,13 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-10-28",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
    "url": "https://www.sortiraparis.com/loisirs/cinema/articles/354644-irish-travellers-le-quotidien-d-une-famille-nomade-dans-un-documentaire-d-alexander-murphy",
    "tags": [
     "Documentaire"
-   ],
-   "source": "web"
-  },
-  {
-   "id": "la-tentazione",
-   "category": "cinema",
-   "title": "La Tentazione",
-   "description": "Drame italien de Nicolangelo Gelormini. Sortie en France le 28/10/2026.",
-   "venue": "Cinémas parisiens",
-   "address": "Paris",
-   "arrondissement": "",
-   "start_date": "2026-10-28",
-   "end_date": "2026-11-08",
-   "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
-   "price": "Selon cinéma",
-   "free": false,
-   "url": "https://www.offi.fr/cinema/evenement/la-tentazione-108214.html",
-   "tags": [
-    "Drame",
-    "Art et essai"
    ],
    "source": "web"
   },
@@ -226,93 +416,13 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-10-28",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
    "url": "https://www.sortiraparis.com/loisirs/cinema/articles/342274-le-fantome-de-l-opera-est-au-cinema",
    "tags": [
     "Fantastique"
-   ],
-   "source": "web"
-  },
-  {
-   "id": "le-mystere-lucy-lost",
-   "category": "cinema",
-   "title": "Le Mystère Lucy Lost",
-   "description": "Film d'animation de Olivier Clert. Sortie en France le 28/10/2026.",
-   "venue": "Cinémas parisiens",
-   "address": "Paris",
-   "arrondissement": "",
-   "start_date": "2026-10-28",
-   "end_date": "2026-11-08",
-   "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
-   "price": "Selon cinéma",
-   "free": false,
-   "url": "https://www.offi.fr/cinema/evenement/lucy-lost-106999.html",
-   "tags": [
-    "Animation",
-    "Enfants"
-   ],
-   "source": "web"
-  },
-  {
-   "id": "le-spectre-du-professeur-hichcock",
-   "category": "cinema",
-   "title": "Le Spectre du professeur Hichcock (réédition)",
-   "description": "Film d'horreur italien, réédition de Riccardo Freda. Sortie en France le 28/10/2026.",
-   "venue": "Cinémas parisiens",
-   "address": "Paris",
-   "arrondissement": "",
-   "start_date": "2026-10-28",
-   "end_date": "2026-11-08",
-   "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
-   "price": "Selon cinéma",
-   "free": false,
-   "url": "https://www.offi.fr/cinema/evenement/le-spectre-du-professeur-hichcock-108218.html",
-   "tags": [
-    "Reprise",
-    "Horreur"
-   ],
-   "source": "web"
-  },
-  {
-   "id": "leaving-amerika",
-   "category": "cinema",
-   "title": "Leaving Amerika",
-   "description": "Documentaire de Marie-Pierre Brêtas. Sortie en France le 28/10/2026.",
-   "venue": "Cinémas parisiens",
-   "address": "Paris",
-   "arrondissement": "",
-   "start_date": "2026-10-28",
-   "end_date": "2026-11-08",
-   "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
-   "price": "Selon cinéma",
-   "free": false,
-   "url": "https://www.offi.fr/cinema/evenement/leaving-amerika-108213.html",
-   "tags": [
-    "Documentaire",
-    "Art et essai"
-   ],
-   "source": "web"
-  },
-  {
-   "id": "les-diables",
-   "category": "cinema",
-   "title": "Les Diables (version restaurée)",
-   "description": "Drame, réédition de Ken Russell. Sortie en France le 28/10/2026.",
-   "venue": "Cinémas parisiens",
-   "address": "Paris",
-   "arrondissement": "",
-   "start_date": "2026-10-28",
-   "end_date": "2026-11-08",
-   "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
-   "price": "Selon cinéma",
-   "free": false,
-   "url": "https://www.offi.fr/cinema/evenement/les-diables-version-restauree-108461.html",
-   "tags": [
-    "Reprise",
-    "Drame"
    ],
    "source": "web"
   },
@@ -325,32 +435,13 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-10-28",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
    "url": "https://www.sortiraparis.com/en/what-to-do-in-paris/cinema-series/articles/344009-moulin-au-cinema-gilles-lellouche-incarne-le-chef-de-la-resistance",
    "tags": [
     "Drame historique"
-   ],
-   "source": "web"
-  },
-  {
-   "id": "papa-ou-t-es",
-   "category": "cinema",
-   "title": "Papa où t'es ?",
-   "description": "Documentaire de Basile Monnot et Samy Bouyssié. Sortie en France le 28/10/2026.",
-   "venue": "Cinémas parisiens",
-   "address": "Paris",
-   "arrondissement": "",
-   "start_date": "2026-10-28",
-   "end_date": "2026-11-08",
-   "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
-   "price": "Selon cinéma",
-   "free": false,
-   "url": "https://www.offi.fr/cinema/evenement/papa-ou-tes-108226.html",
-   "tags": [
-    "Documentaire"
    ],
    "source": "web"
   },
@@ -363,7 +454,7 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-10-28",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
@@ -382,7 +473,7 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-10-28",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
@@ -401,7 +492,7 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-10-21",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
@@ -420,7 +511,7 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-10-21",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
@@ -440,7 +531,7 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-10-21",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
@@ -459,7 +550,7 @@
    "address": "Paris",
    "arrondissement": "",
    "start_date": "2026-10-14",
-   "end_date": "2026-11-08",
+   "end_date": "2026-11-15",
    "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
    "price": "Selon cinéma",
    "free": false,
@@ -468,45 +559,6 @@
     "Drame"
    ],
    "source": "web"
-  },
-  {
-   "id": "l-abandon",
-   "category": "cinema",
-   "title": "L'Abandon",
-   "description": "Film sur l'affaire Samuel Paty (ressortie) de Vincent Garenq. Sortie en France le 23/09/2026.",
-   "venue": "Cinémas parisiens",
-   "address": "Paris",
-   "arrondissement": "",
-   "start_date": "2026-09-23",
-   "end_date": "2026-11-08",
-   "schedule": "Séances en salles — voir horaires sur les sites des cinémas",
-   "price": "Selon cinéma",
-   "free": false,
-   "url": "https://www.sortiraparis.com/loisirs/cinema/articles/342271-l-abandon-le-film-sur-samuel-paty-revient-au-cinema",
-   "tags": [
-    "Drame"
-   ],
-   "source": "web"
-  },
-  {
-   "id": "plumes-du-paradis-voyages-d-un-oiseau-extraordinaire-de-nouv",
-   "category": "exposition",
-   "title": "Plumes du paradis. Voyages d'un oiseau extraordinaire de Nouvelle-Guinée",
-   "description": "Des forêts de Nouvelle-Guinée aux tableaux des grands maîtres de l’école du Nord, une traversée fascinante sur les traces des oiseaux de paradis, créatures flamboyantes qui captivent le monde depuis cinq siècles.",
-   "venue": "Musée du quai Branly - Jacques Chirac",
-   "address": "37, quai Jacques Chirac 75007 Paris",
-   "arrondissement": "75007",
-   "start_date": "2026-05-12",
-   "end_date": "2026-11-08",
-   "schedule": "Du mardi 12 mai 2026 au dimanche 08 novembre 2026 : · jeudi · de 10h30 à 22h00 · mardi, mercredi, vendredi, samedi, dimanche · de 10h30 à 19h00 ·",
-   "price": "De 0 à 14 euros.",
-   "free": false,
-   "url": "https://www.paris.fr/evenements/plumes-du-paradis-voyages-d-un-oiseau-extraordinaire-de-nouvelle-guinee-115895",
-   "image": "https://cdn.paris.fr/qfapv4/2026/07/07/huge-aba1024d84b5f59f5064c732c79c14c7.jpeg",
-   "tags": [
-    "Nature"
-   ],
-   "source": "opendata.paris.fr"
   },
   {
    "id": "exposition-lady-liberty-derriere-l-icone-le-genie-d-eiffel-1",
@@ -1435,6 +1487,42 @@
    "source": "opendata.paris.fr"
   },
   {
+   "id": "les-rendez-vous-incontournables-du-forum-des-images-en-novem",
+   "category": "conference",
+   "title": "LES RENDEZ-VOUS INCONTOURNABLES DU FORUM DES IMAGES EN NOVEMBRE",
+   "description": "En novembre, retrouvez la scénariste et réalisatrice Audrey Diwan dans le cadre des Ciné-rencontres de la Sorbonne, Ollivier Pourriol et son Cinéphilo L'imagination au pouvoir, ainsi que Fanny Herrero, la showrunneuse de la série Dix pour cent, dans le cadre des Rendez-vous en…",
+   "venue": "Forum des images",
+   "address": "Westfield Forum des Halles, 2 Rue du cinéma 75001 Paris",
+   "arrondissement": "75001",
+   "start_date": "2026-11-03",
+   "end_date": "2026-11-12",
+   "schedule": "Du mardi 03 novembre 2026 au jeudi 12 novembre 2026 : ·",
+   "price": "7,50 € tarif plein 6 € tarif réduit 5,5 € pour les détenteur·rices des cartes UGC Illimité 5 € pour les moins de 14…",
+   "free": false,
+   "url": "https://www.paris.fr/evenements/les-rendez-vous-incontournables-du-forum-des-images-en-novembre-126822",
+   "image": "https://cdn.paris.fr/qfapv4/2026/10/29/huge-6f0ee63ed30cd48cb2a62825fe9e0736.jpg",
+   "tags": [],
+   "source": "opendata.paris.fr"
+  },
+  {
+   "id": "vies-minuscules-des-vies-a-la-bpi-126768",
+   "category": "conference",
+   "title": "Vies minuscules, des vies à la Bpi",
+   "description": "La Bibliothèque publique d’information propose pendant trois semaines une programmation en résonance avec l’exposition Vies minuscules du Centre Pompidou au Panthéon, en partenariat avec le Centre des Monuments nationaux.",
+   "venue": "Bibliothèque publique d'information",
+   "address": "40, avenue des Terroirs de France 75012 Paris",
+   "arrondissement": "75012",
+   "start_date": "2026-11-04",
+   "end_date": "2026-11-22",
+   "schedule": "Du mercredi 04 novembre 2026 au dimanche 22 novembre 2026 : ·",
+   "price": "Gratuit",
+   "free": true,
+   "url": "https://www.paris.fr/evenements/vies-minuscules-des-vies-a-la-bpi-126768",
+   "image": "https://cdn.paris.fr/qfapv4/2026/10/29/huge-972eb0073b83df96b18fd3871f140591.jpg",
+   "tags": [],
+   "source": "opendata.paris.fr"
+  },
+  {
    "id": "en-detention-124375",
    "category": "conference",
    "title": "En détention",
@@ -1533,6 +1621,46 @@
    "source": "opendata.paris.fr"
   },
   {
+   "id": "visites-conferences-pour-les-collections-permanentes-117029",
+   "category": "conference",
+   "title": "Visites-conférences pour les collections permanentes",
+   "description": "Découvrez l'histoire du musée Bourdelle et les chefs-d'œuvre de ses collections permanentes.",
+   "venue": "Musée Bourdelle",
+   "address": "18, rue Antoine Bourdelle 75015 Paris",
+   "arrondissement": "75015",
+   "start_date": "2026-08-09",
+   "end_date": "2026-12-19",
+   "schedule": "Le samedi 19 décembre 2026 · de 14h00 à 15h30 · Le samedi 28 novembre 2026 · de 14h00 à 15h30 ·",
+   "price": "Plein tarif : 7 € Tarif réduit : 5 €",
+   "free": false,
+   "url": "https://www.paris.fr/evenements/visites-conferences-pour-les-collections-permanentes-117029",
+   "image": "https://cdn.paris.fr/qfapv4/2026/07/27/huge-a42e68b5680b3f27902b8106a111bd94.png",
+   "tags": [
+    "Art contemporain"
+   ],
+   "source": "opendata.paris.fr"
+  },
+  {
+   "id": "visites-guidees-de-l-exposition-l-etoffe-de-l-artiste-125432",
+   "category": "conference",
+   "title": "Visites guidées de l'exposition « L’étoffe de l’artiste »",
+   "description": "Une visite à la découverte de l'exposition temporaire « L’étoffe de l’artiste » au musée Bourdelle",
+   "venue": "Musée Bourdelle",
+   "address": "18, rue Antoine Bourdelle 75015 Paris",
+   "arrondissement": "75015",
+   "start_date": "2026-10-06",
+   "end_date": "2026-12-30",
+   "schedule": "Le mercredi 30 décembre 2026 · de 16h00 à 17h30 · Le mercredi 30 décembre 2026 · de 14h30 à 16h00 · Le mardi 29 décembre 2026 · de 16h00 à 17h30 · Le mardi 29 décembre 2026 · de 14h00 à 15h30 · Le…",
+   "price": "Plein tarif : 7 € + billet de l'exposition Tarif réduit : 5 € + billet de l'exposition",
+   "free": false,
+   "url": "https://www.paris.fr/evenements/visites-guidees-de-l-exposition-l-etoffe-de-l-artiste-125432",
+   "image": "https://cdn.paris.fr/qfapv4/2026/10/05/huge-9c76ad228639e1e619f4c0ee06f777f4.png",
+   "tags": [
+    "Art contemporain"
+   ],
+   "source": "opendata.paris.fr"
+  },
+  {
    "id": "foucault-une-aventure-intellectuelle-au-college-de-france-12",
    "category": "conference",
    "title": "Foucault, une aventure intellectuelle au Collège de France",
@@ -1571,6 +1699,26 @@
    "source": "opendata.paris.fr"
   },
   {
+   "id": "cosmogonia-une-experience-immersive-de-yom-117388",
+   "category": "theatre",
+   "title": "« Cosmogonia » : une expérience immersive de Yom",
+   "description": "Que se passe-t-il quand la musique ne se donne plus comme un concert, mais comme une expérience à traverser ? Quand elle ne s’écoute plus seulement, mais s’habite ?",
+   "venue": "Théâtre de la Concorde",
+   "address": "1 Avenue Gabriel 75008 Paris",
+   "arrondissement": "75008",
+   "start_date": "2026-10-13",
+   "end_date": "2026-11-14",
+   "schedule": "Le samedi 14 novembre 2026 · de 20h00 à 21h00 · Le vendredi 13 novembre 2026 · de 20h00 à 21h00 ·",
+   "price": "8 à 25€",
+   "free": false,
+   "url": "https://www.paris.fr/evenements/cosmogonia-une-experience-immersive-de-yom-117388",
+   "image": "https://cdn.paris.fr/qfapv4/2026/08/05/huge-78b4ddfce74f8264c42a85b622f1f753.png",
+   "tags": [
+    "Spectacle musical"
+   ],
+   "source": "opendata.paris.fr"
+  },
+  {
    "id": "l-art-d-avoir-toujours-raison-au-theatre-tristan-bernard-116",
    "category": "theatre",
    "title": "L’Art d’avoir toujours raison",
@@ -1586,6 +1734,46 @@
    "url": "https://www.paris.fr/evenements/l-art-d-avoir-toujours-raison-au-theatre-tristan-bernard-116953",
    "image": "https://cdn.paris.fr/qfapv4/2026/07/24/huge-20e7c2e4dbc9dfcd881a5f1a071186fa.jpg",
    "tags": [],
+   "source": "opendata.paris.fr"
+  },
+  {
+   "id": "ce-matin-la-117024",
+   "category": "theatre",
+   "title": "Ce matin-LÀ !",
+   "description": "Solo de clown mêlant papier, peinture, théâtre d’ombres et musique baroque inspirée de Vivaldi !",
+   "venue": "Théâtre Essaïon",
+   "address": "6, rue Pierre au lard 75004 Paris",
+   "arrondissement": "75004",
+   "start_date": "2026-08-22",
+   "end_date": "2026-11-18",
+   "schedule": "Du samedi 22 août 2026 au mercredi 18 novembre 2026 : ·",
+   "price": "Payant",
+   "free": false,
+   "url": "https://www.paris.fr/evenements/ce-matin-la-117024",
+   "image": "https://cdn.paris.fr/qfapv4/2026/07/27/huge-3579a359070bf54c74f06d5fe1a2d526.jpg",
+   "tags": [
+    "Enfants"
+   ],
+   "source": "opendata.paris.fr"
+  },
+  {
+   "id": "livre-pour-vous-117458",
+   "category": "theatre",
+   "title": "Livré pour vous",
+   "description": "LIVRÉ POUR VOUS, récits de corps féminins est une création bilingue (français oral/LSF) de Cécile Morelle, centrée sur le corps féminin.",
+   "venue": "International Visual Theatre",
+   "address": "7 Cité Chaptal 75009 Paris",
+   "arrondissement": "75009",
+   "start_date": "2026-10-21",
+   "end_date": "2026-11-20",
+   "schedule": "Le vendredi 20 novembre 2026 · de 20h00 à 21h00 · Le jeudi 19 novembre 2026 · de 19h00 à 20h00 ·",
+   "price": "Tarifs : de 27€ à 6€, voir le détail des tarifs sur notre billetterie en ligne",
+   "free": false,
+   "url": "https://www.paris.fr/evenements/livre-pour-vous-117458",
+   "image": "https://cdn.paris.fr/qfapv4/2026/08/07/huge-e51771e5c652996569b9f00483cb8fdc.jpg",
+   "tags": [
+    "Solidarité"
+   ],
    "source": "opendata.paris.fr"
   },
   {
@@ -1678,6 +1866,24 @@
    "tags": [
     "Humour"
    ],
+   "source": "opendata.paris.fr"
+  },
+  {
+   "id": "la-mort-du-mome-123803",
+   "category": "theatre",
+   "title": "La mort du môme",
+   "description": "« Enterrez-moi là où j’aurai vécu. » Dans un foyer Emmaüs, un père est mort. Il laisse pour testament cette phrase, découverte par l’Enfant au même instant que son corps, et une question qui divise les siens : où enterrer un homme dont la vie s’est tenue entre deux langues,…",
+   "venue": "La Colline - théâtre national",
+   "address": "15 Rue Malte Brun 75020 Paris",
+   "arrondissement": "75020",
+   "start_date": "2026-11-06",
+   "end_date": "2026-12-12",
+   "schedule": "Du vendredi 06 novembre 2026 au samedi 12 décembre 2026 : ·",
+   "price": "Payant",
+   "free": false,
+   "url": "https://www.paris.fr/evenements/la-mort-du-mome-123803",
+   "image": "https://cdn.paris.fr/qfapv4/2026/09/14/huge-b90f2fdf2e35ba06867871055cfe5574.jpeg",
+   "tags": [],
    "source": "opendata.paris.fr"
   },
   {
@@ -2115,166 +2321,6 @@
    "image": "https://cdn.paris.fr/qfapv4/2023/08/02/huge-dc8d1a5224e4e54b99295995e2aab844.png",
    "tags": [],
    "source": "opendata.paris.fr"
-  },
-  {
-   "id": "paysages-interieurs-garnier",
-   "category": "spectacle",
-   "title": "Paysages intérieurs",
-   "description": "Soirée de ballet de l'Opéra national de Paris au Palais Garnier.",
-   "venue": "Palais Garnier",
-   "address": "Place de l'Opéra, 75009 Paris",
-   "arrondissement": "75009",
-   "start_date": "2026-11-04",
-   "end_date": "2026-11-04",
-   "schedule": "Mercredi 4 novembre à 19h30",
-   "price": "Payant",
-   "free": false,
-   "url": "https://www.operadeparis.fr",
-   "tags": [
-    "Danse",
-    "Ballet"
-   ],
-   "source": "web"
-  },
-  {
-   "id": "barbier-de-seville-bastille",
-   "category": "spectacle",
-   "title": "Le Barbier de Séville",
-   "description": "Opéra de Rossini dans une mise en scène moderne et colorée, à l'Opéra Bastille.",
-   "venue": "Opéra Bastille",
-   "address": "Place de la Bastille, 75012 Paris",
-   "arrondissement": "75012",
-   "start_date": "2026-09-12",
-   "end_date": "2026-11-05",
-   "schedule": "Voir le calendrier de l'Opéra de Paris",
-   "price": "Payant",
-   "free": false,
-   "url": "https://www.operadeparis.fr",
-   "tags": [
-    "Opéra"
-   ],
-   "source": "web"
-  },
-  {
-   "id": "angelin-preljocaj-soulevement-116457",
-   "category": "spectacle",
-   "title": "Angelin Preljocaj : Soulèvement",
-   "description": "L'énergie collective des grands rassemblements nourrit la création d'Angelin Preljocaj.",
-   "venue": "Théâtre de la Ville – Sarah Bernhardt",
-   "address": "2 place du Châtelet 75004 Paris",
-   "arrondissement": "75004",
-   "start_date": "2026-10-22",
-   "end_date": "2026-11-07",
-   "schedule": "Du jeudi 22 octobre 2026 au samedi 07 novembre 2026 : ·",
-   "price": "Ouverture de billetterie le 01/09/2026 à 12h. Cartes et cartes -30 ans et étudiants, achetez vos places.",
-   "free": false,
-   "url": "https://www.paris.fr/evenements/angelin-preljocaj-soulevement-116457",
-   "image": "https://cdn.paris.fr/qfapv4/2026/07/16/huge-788757f9870c56df63650df4c64d4d4d.jpg",
-   "tags": [
-    "Danse"
-   ],
-   "source": "opendata.paris.fr"
-  },
-  {
-   "id": "let-s-go-116269",
-   "category": "spectacle",
-   "title": "LET'S GO",
-   "description": "LET’S GO! est un carrefour d’énergies, une aventure collective où les différences deviennent une force et où la danse se fait langage viscéral.",
-   "venue": "Théâtre Le 13e Art",
-   "address": "30, avenue d'Italie 75013 Paris",
-   "arrondissement": "75013",
-   "start_date": "2026-10-08",
-   "end_date": "2026-11-07",
-   "schedule": "Du jeudi 08 octobre 2026 au dimanche 08 novembre 2026 : · mercredi, jeudi, vendredi, samedi · de 21h00 à 22h30 · samedi · de 17h00 à 18h30 ·",
-   "price": "De 30 à 80 euros.",
-   "free": false,
-   "url": "https://www.paris.fr/evenements/let-s-go-116269",
-   "image": "https://cdn.paris.fr/qfapv4/2026/07/14/huge-9cdd4da7133097b3bfe99665a30b820f.jpg",
-   "tags": [
-    "Danse"
-   ],
-   "source": "opendata.paris.fr"
-  },
-  {
-   "id": "philharmonie-orchestre-philharmonique-de-tcheque",
-   "category": "spectacle",
-   "title": "Orchestre philharmonique tchèque",
-   "description": "Concert de l'Orchestre philharmonique tchèque, annoncé dans la saison 2026-27 de la Philharmonie.",
-   "venue": "Philharmonie de Paris",
-   "address": "221 avenue Jean-Jaurès, 75019 Paris",
-   "arrondissement": "75019",
-   "start_date": "2026-11-07",
-   "end_date": "2026-11-07",
-   "schedule": "Samedi 7 novembre — horaire à confirmer",
-   "price": "Payant",
-   "free": false,
-   "url": "https://philharmoniedeparis.fr",
-   "tags": [
-    "Concert",
-    "Classique"
-   ],
-   "source": "web"
-  },
-  {
-   "id": "requiem-de-verdi-eglise-de-la-madeleine-41903",
-   "category": "spectacle",
-   "title": "Requiem de Verdi",
-   "description": "L'Orchestre Hélios, le Choeur Hélios Éphémère et Marc Hajjar (chef d'orchestre) vous feront redécouvrir le Requiem de Verdi.",
-   "venue": "Eglise de la Madeleine",
-   "address": "Place de la Madeleine 75008 Paris",
-   "arrondissement": "75008",
-   "start_date": "2025-05-30",
-   "end_date": "2026-11-07",
-   "schedule": "Le samedi 07 novembre 2026 · de 20h45 à 22h00 ·",
-   "price": "Prestige : 60 euros Catégorie 1 : 40€, Cat 1 Tr (étudiants, chômeurs) : 30€, Catégorie 2 : 30€, Cat 2 Tr (étudiants,…",
-   "free": false,
-   "url": "https://www.paris.fr/evenements/copie-de-requiem-de-verdi-41903",
-   "image": "https://cdn.paris.fr/qfapv4/2024/11/22/huge-cba469dd1fa5866ebcac5621f290ac34.jpg",
-   "tags": [
-    "Concert",
-    "Festival"
-   ],
-   "source": "opendata.paris.fr"
-  },
-  {
-   "id": "philharmonie-george-sand",
-   "category": "spectacle",
-   "title": "George Sand — série de concerts",
-   "description": "Concerts inspirés par les amitiés et les amours de George Sand, avec le Paris Mozart Orchestra dirigé par Claire Gibault, à la Cité de la musique.",
-   "venue": "Philharmonie de Paris — Cité de la musique",
-   "address": "221 avenue Jean-Jaurès, 75019 Paris",
-   "arrondissement": "75019",
-   "start_date": "2026-11-06",
-   "end_date": "2026-11-08",
-   "schedule": "Voir le programme de la Philharmonie",
-   "price": "Payant",
-   "free": false,
-   "url": "https://philharmoniedeparis.fr",
-   "tags": [
-    "Concert",
-    "Classique"
-   ],
-   "source": "web"
-  },
-  {
-   "id": "nord-sauvage-philharmonie",
-   "category": "spectacle",
-   "title": "Nord Sauvage — concert famille",
-   "description": "Concert familial de l'Orchestre de Paris, dans la Grande salle Pierre Boulez.",
-   "venue": "Philharmonie de Paris",
-   "address": "221 avenue Jean-Jaurès, 75019 Paris",
-   "arrondissement": "75019",
-   "start_date": "2026-11-03",
-   "end_date": "2026-11-08",
-   "schedule": "Voir le programme de la Philharmonie",
-   "price": "Payant",
-   "free": false,
-   "url": "https://philharmoniedeparis.fr",
-   "tags": [
-    "Concert",
-    "Enfants"
-   ],
-   "source": "web"
   },
   {
    "id": "l-or-du-rhin-bastille",
